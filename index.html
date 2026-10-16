@@ -123,16 +123,28 @@
             font-weight: 600;
             margin-bottom: 10px;
         }
+        .dashboard-img-container {
+            margin: 15px 0; 
+            border: 2px solid #38bdf8; 
+            border-radius: 8px; 
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(56, 189, 248, 0.2);
+        }
+        .dashboard-img-container img {
+            width: 100%; 
+            display: block;
+            border-radius: 6px;
+        }
         .project-btn {
             display: inline-block;
             background: #38bdf8;
             color: #0b132b !important;
-            padding: 8px 18px;
+            padding: 9px 20px;
             border-radius: 6px;
             text-decoration: none;
             font-weight: 700;
             font-size: 14px;
-            margin-top: 10px;
+            margin-top: 8px;
         }
         .project-btn:hover {
             background: #60a5fa;
@@ -185,7 +197,12 @@
                 <span class="badge">POWER BI DASHBOARD</span>
                 <h3>Global Pharmacy Sales Analytics (2020 - 2025)</h3>
                 <p>Comprehensive Power BI analytics project evaluating global pharmacy sales across 177K+ records in 19 countries. Built interactive visual reports, DAX measure frameworks, and YoY KPI growth comparisons.</p>
-                <a href="https://github.com/scplvishal-cmd/Global-Pharmacy-Sales-Analysis" target="_blank" class="project-btn">🔗 View Power BI Project & Repository →</a>
+                
+                <div class="dashboard-img-container">
+                    <img src="dashboard_preview.png" alt="Global Pharmacy Sales Power BI Dashboard Preview">
+                </div>
+
+                <a href="https://github.com/scplvishal-cmd/Global-Pharmacy-Sales-Analysis" target="_blank" class="project-btn">🔗 View GitHub Repository & PBIX Insights →</a>
             </div>
 
             <!-- Advanced Excel Project -->
